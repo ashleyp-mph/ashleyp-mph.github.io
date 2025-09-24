@@ -1,10 +1,9 @@
 github_users:
   - ashleyp-mph
-  - aplbrain
+
 
 repo_description_lines_max: 2
 
 github_repos:
   - ashleyp-mph/ashleyp-mph.github.io
-  - bossdb-kasthuri-challenge
-
+ 
