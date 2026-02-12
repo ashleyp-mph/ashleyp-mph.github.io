@@ -2,7 +2,7 @@
 layout: page
 title: BossDB Kasthuri Challenge
 description: Contributed to segmentation challenge on neural data (Kasthuri dataset)
-img: assets/electron.png
+img: assets/img/electron.jpg
 importance: 1
 category: work
 related_publications: true
@@ -19,6 +19,12 @@ co-contributors:
 ---
 
 # BossDB Kasthuri Challenge
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/electron.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 
 ## Background
 Large-scale, high-resolution neuroanatomical imaging produces vast volumes of data that offer new opportunities to understand brain structure and connectivity. Machine and deep learning methods are increasingly used to analyze these datasets, but standardized tasks, annotations, and benchmarks are still needed to compare methods and drive progress.

@@ -1,81 +1,19 @@
 ---
 layout: page
 title: project 2
-description: a project with a background image and giscus comments
+description: Investigating the Impact of Sleep on Beta-Cell Function and Insulin Sensitivity in Youth with Prediabetes or Early Type 2 Diabetes: A Cross-Sectional Analysis of the RISE Study
 img: assets/img/3.jpg
 importance: 2
 category: work
 giscus_comments: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## MPH Culminating Experience (Thesis)
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+**Background**: Poor sleep may contribute to impaired β-cell function or reduced insulin sensitivity in youth, but evidence remains limited. We examined whether sleep duration, sleep quality, or obstructive sleep apnea (OSA) risk were associated with β-cell response or insulin sensitivity in youth with prediabetes or recently diagnosed type 2 diabetes (T2D).
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+**Methods**: At baseline, 88 youth (ages 10–19 years) in the Restoring Insulin Secretion (RISE) Study completed validated sleep questionnaires. Hyperglycemic clamps measured insulin sensitivity ([M/I]) and β-cell responses (acute C-peptide response to glucose [ACPRg], steady-state C-peptide [SSCP], and arginine-stimulated maximum C-peptide (ACPRmax)). Oral glucose tolerance test (OGTT) outcomes included Insulinogenic Index (IGI), C-Peptide Index (CPGI), and incremental areas under the curve (iAUC). Linear regression models evaluated associations between sleep variables and metabolic outcomes, adjusting for age, sex, race/ethnicity, Tanner stage, BMI, and metformin use. Models assessing β-cell responses were additionally adjusted for M/I to account for the role of insulin sensitivity in β-cell function.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+**Results**: Participants were 70% female, mean age 14.3±2.0 years, BMI 36.9±6.4 kg/m²; 60% had IGT and 40% had T2D. Short sleep (<8 hours) was reported by 59%, poor sleep quality by 28%, and high OSA risk by 29%. Shorter sleep duration was associated with a trend toward lower IGI (PE = 88.8, p = 0.056, 95% CI: –2.3, 180.0). No sleep variables were significantly associated with clamp-derived outcomes.
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+**Conclusions**: Subjective measures of sleep were not independently associated with β-cell function or insulin sensitivity. Objective sleep assessments may better clarify these relationships.
