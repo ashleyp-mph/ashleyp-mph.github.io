@@ -39,7 +39,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "cv",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
+          description: "Emerging data science and biostatistics professional with experience supporting large-scale, federally funded research programs. Skilled in statistical computing, data visualization, and development of analytical tools that enhance decision-making. Experienced in building reproducible data pipelines, metadata systems, and visualization dashboards. Committed to advancing public-interest research through trusted analytics, human-machine collaboration, and technical excellence.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
@@ -58,21 +58,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/people/";
           },
-        },{id: "dropdown-bookshelf",
-              title: "bookshelf",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/books/";
-              },
-            },{id: "dropdown-blog",
-              title: "blog",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/blog/";
-              },
-            },{id: "post-a-post-with-plotly-js",
+        },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
         
